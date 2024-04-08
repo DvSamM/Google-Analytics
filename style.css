@@ -403,21 +403,27 @@ footer>p{
 
     nav>.ggle{
         margin-top: 20px;
-        margin-left: 310px;
+        /* margin-left: 310px; */
+        margin-left: 100px;
+        display: flex;
+        align-items: center;
+
         font-size: 7px;
     }
     nav img{
-        height: 20px;
+        height: 40px;
     }
     
     .ggle>a>h2{
         margin-left: -300px;
+        font-size: 19px;
     }
 
     section>div.course{
         background-color: #FF7700;
         color: WHITE;
         width: 100%;
+        margin-left: 0px;
     }
     section>.course p{
 font-size: 15px;
@@ -438,6 +444,7 @@ font-size: 15px;
         width: 900px;
         font-weight: 400;
         margin-top: -30px;
+        margin-left: 10px;
      }
 
      .learn>p{
@@ -455,8 +462,8 @@ font-size: 15px;
      .card1{
         background-color: white;
         height: 50vh;
-        width: 270px;
-margin-left: -115px;
+        width: 320px;
+margin-left: -145px;
     }
     .card1 p{
         font-size: 15px; 
@@ -477,8 +484,8 @@ margin-left: -115px;
         margin-top: 20px;
         background-color: white;
         height: 50vh;
-        width: 270px;
-margin-left: -115px;
+        width: 320px;
+        margin-left: -145px;
     }
      .card2 p{
         font-size: 15px;  
@@ -494,8 +501,8 @@ margin-left: -115px;
         margin-top: 20px;
         background-color: white;
         height: 50vh;
-        width: 270px;
-       margin-left: -115px;
+        width: 320px;
+        margin-left: -145px;
     }
      .card3 p{
         font-size: 15px;  
@@ -511,8 +518,8 @@ margin-left: -115px;
         margin-top: 20px;
         background-color: white;
         height: 50vh;
-        width: 270px;
-      margin-left: -115px;
+        width: 320px;
+        margin-left: -145px;
     }
      .card4 p{
         font-size: 15px;  
@@ -528,8 +535,8 @@ margin-left: -115px;
         margin-top: 20px;
         background-color: white;
         height: 50vh;
-        width: 270px;
-        margin-left: -115px;
+        width: 320px;
+        margin-left: -145px;
     }
      .card5 p{
         font-size: 15px;  
@@ -545,8 +552,8 @@ margin-left: -115px;
         margin-top: 20px;
         background-color: white;
         height: 50vh;
-        width: 270px;
-        margin-left: -115px;
+        width: 320px;
+        margin-left: -145px;
     }
      .card6 p{
         font-size: 15px;  
@@ -576,9 +583,9 @@ margin-left: -115px;
 }
     .cur{
     height: 35vh;
-    width: 250px;
+    width: 340px;
     margin-top: 100px;
-    margin-left: -100px;
+    margin-left: -150px;
 }
 .jus {
     margin-left: 0px;
@@ -594,9 +601,9 @@ margin-left: -115px;
 
     .kris{
     height: 30vh;
-    width: 250px;
+    width: 340px;
     margin-top: 100px;
-    margin-left: -100px;
+    margin-left: -150px;
     margin-top: 120px;
 }
 .kri {
@@ -612,9 +619,9 @@ margin-left: -115px;
 
     .inss{
     height: 35vh;
-    width: 250px;
+    width: 340px;
     margin-top: 100px;
-    margin-left: -100px;
+    margin-left: -150px;
     margin-top: 120px;
 }
 .ins {
