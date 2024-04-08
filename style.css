@@ -1,0 +1,778 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ 
+nav>.ggle{
+    margin-top: 20px;
+    margin-left: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 300px;
+    justify-content: center;   
+}
+.ggle>a{
+    text-decoration: none;
+    color: black;
+}
+.ggle>a>h2{
+    margin-left: -440px;    
+}
+section>div.course{
+    background-color: #FF7700;
+    color: WHITE;
+    margin: 5px;
+    /* width: 400px; */
+    padding: 15px;
+}
+.course a{
+color: white;
+}
+section>.course p{
+font-size: 17px;
+}
+main{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.learn{
+    margin-top: 60px;
+    margin-left: 150px;
+}
+.learn>p{
+    width: 450px;
+    font-size: 20px;
+}
+.learn>h1{
+   font-size: 39px; 
+   margin-bottom: 25px;
+}
+main>.down{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 400px;
+}
+.pple{
+    margin-top: -350px;
+    margin-left: 740px;
+}
+.down>a>.dwn{
+    margin-left: 710px;
+    position: relative;
+
+}
+.section2{
+    background-color:#4285F4;
+    padding-bottom: 10px;
+    margin-top: -40px;
+    position: relative;
+}
+.section2>h1{
+    margin-left: 125px;
+    color: white;
+    margin-bottom: 30px;
+}
+.section2>.beginners{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+margin-left: 125px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.card1{
+    background-color: white;
+    height: 65vh;
+    width: 270px;
+    padding-left: 20px;
+    line-height: 25px;
+}
+.card2{
+    background-color: white;
+    height: 65vh;
+    width: 270px;
+    padding-left: 20px;
+    line-height: 25px;   
+    margin-left: -20px;
+}
+.card3{
+    background-color: white;
+    height: 65vh;
+    width: 270px;
+    padding-left: 20px;
+    line-height: 25px;
+    margin-left: -40px;   
+}
+.card4{
+    background-color: white;
+    height: 65vh;
+    width: 270px;
+    padding-left: 20px;
+    line-height: 25px; 
+    margin-left: -60px;  
+    margin-bottom: 20px;
+}
+.card5{
+    background-color: white;
+    height: 65vh;
+    width: 270px;
+    padding-left: 20px;
+    line-height: 25px; 
+}
+.card6{
+    background-color: white;
+    height: 65vh;
+    width: 270px;
+    padding-left: 20px;
+    line-height: 25px;
+    margin-left: -20px; 
+}
+
+.card1>h3{
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.card2>h3{
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.card3>h3{
+    margin-bottom: 30px;
+    margin-top: 10px; 
+}
+.card4>h3{
+    margin-bottom: 30px;
+    margin-top: 10px; 
+}
+.card5>h3{
+    margin-bottom: 30px;
+    margin-top: 10px; 
+}
+
+.card1>p{
+    padding-bottom: 55px;
+}
+.card2>p{
+    padding-bottom: 80px;
+}
+.card3>P{
+    padding-bottom: 57px;
+}
+.card4>P{
+    padding-bottom: 17px;
+}
+.arrw{
+    margin-left: 190px;
+}
+
+.section3{
+margin-left: 130px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+margin-top: 30px;
+}
+.section3>p{
+    font-size: 30px;
+}
+.meet{
+    margin-bottom: 20px;
+}
+.cur{
+    background-color: hsla(0, 0%, 0%, 0.1);
+    margin-right: 100px;
+    height: 25vh;
+}
+.jus{
+    margin-left: 170px;
+    margin-top: -150px;
+}
+.jus>h3{
+    margin-bottom: 19px;
+}
+.jus>p{
+    margin-top: 15px;
+}
+.kris{
+    background-color: hsla(0, 0%, 0%, 0.1);
+    margin-right: 100px;
+    height: 25vh;
+}
+.kri{
+    margin-left: 170px;
+    margin-top: -150px;
+}
+.kri>h3{
+    margin-bottom: 19px;
+}
+.kri>p{
+    margin-top: 15px;
+}
+
+
+.inss{
+    background-color: hsla(0, 0%, 0%, 0.1);
+    margin-right: 100px;
+    height: 28vh;
+}
+.ins{
+    margin-left: 170px;
+    margin-top: -150px;
+}
+.ins>h3{
+    margin-bottom: 19px;
+}
+.ins>p{
+    margin-top: 15px;
+}
+
+.section4{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 110px;
+    
+}
+.section4>h3{
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+.section4>p{
+    font-size: 16px;
+    margin-left: 0px;
+}
+.gle{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.google{
+
+    background-color: hsla(0, 0%, 0%, 0.1);
+    height: 140px; width: 260px;
+    margin-top: 30px; 
+    border-radius: 5px;
+    text-align: center;
+    /* margin-left: -30px; */
+}
+.google>p{
+    margin-left: 10px;
+}
+.google>img{
+    margin-top: 20px;    
+}
+.google1{
+
+    background-color: hsla(0, 0%, 0%, 0.1);
+    height: 140px; width: 260px;
+    margin-top: 30px; 
+    border-radius: 5px;
+    text-align: center;
+    margin-left: -35px;
+}
+.google1>p{
+    margin-left: 10px;
+}
+.google1>img{
+    margin-top: 20px;    
+}
+.google2{
+
+    background-color: hsla(0, 0%, 0%, 0.1);
+    height: 140px; width: 260px;
+    margin-top: 30px; 
+    border-radius: 5px;
+    text-align: center;
+    margin-left: -75px;
+}
+.google2>p{
+    margin-left: 10px;
+}
+.google2>img{
+    margin-top: 20px;    
+}
+.google3{
+
+    background-color: hsla(0, 0%, 0%, 0.1);
+    height: 140px; width: 260px;
+    margin-top: 30px; 
+    border-radius: 5px;
+    text-align: center;
+    margin-left: -110px;
+}
+.google3>p{
+    margin-left: 10px;
+}
+.google3>img{
+    margin-top: 20px;    
+}
+.demo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+footer{
+    background-color: hsla(0, 0%, 0%, 0.1);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-left: 110px;
+}
+footer>p{
+    font-size: 25px;
+    padding-top: 10px;
+}
+.fthr{
+    width: 1410px;
+    margin-left: -200px;
+}
+.goo{
+    margin-left: 120px;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+.goo>img{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.goo1{
+    padding-top: 10px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.goo1>img{
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+
+.goo2{
+    margin-left: -20px;
+    margin-top: 20px;
+}
+.goo2>img{
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+
+.goo3{
+    margin-left: -70px;
+    padding-top: 5px;
+    margin-top: 20px;
+}
+.goo3>img{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.goo4{
+    margin-left: -140px;
+    padding-top: 5px;
+    margin-top: 20px;
+}
+.goo4>img{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.ft{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: right;
+}
+.ft>a{
+    text-decoration: none;
+    color: #4A4A4A;
+    margin-right: 40px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:585px) {
+    html,body{
+        width: 100%;
+        overflow-x: hidden !important;
+        /* overflow-y: hidden; */
+    }
+    body,html{
+        /* overflow: hidden; */
+    }
+    main{
+        overflow-x: hidden;
+        /* width: 100%; */
+    }
+    
+    .ggle .sam{
+        display: none;
+    }
+
+    nav>.ggle{
+        margin-top: 20px;
+        margin-left: 310px;
+        font-size: 7px;
+    }
+    nav img{
+        height: 20px;
+    }
+    
+    .ggle>a>h2{
+        margin-left: -300px;
+    }
+
+    section>div.course{
+        background-color: #FF7700;
+        color: WHITE;
+        width: 100%;
+    }
+    section>.course p{
+font-size: 15px;
+}
+     .dwn{
+    display: none;
+    }
+    .pple{
+        display: none;
+    }
+
+    .learn{
+        margin-bottom: 50PX;
+        margin-left: 10px;
+    }
+    .learn>h1{
+        font-size: 19px; 
+        width: 900px;
+        font-weight: 400;
+        margin-top: -30px;
+     }
+
+     .learn>p{
+        width: 280px;
+        font-size: 13px;
+        margin-left: 10px;
+    }
+    
+    .section2 h1{
+        margin-left: 20px;
+        padding-top: 30px;
+        font-weight: 200;
+        font-size: 16px;
+    }
+     .card1{
+        background-color: white;
+        height: 50vh;
+        width: 270px;
+margin-left: -115px;
+    }
+    .card1 p{
+        font-size: 15px; 
+         
+        
+    }
+    .card1 h3{
+        font-size: 14px;
+    }
+    .card1 img{
+        width: 20px;
+    }
+      .arrw{
+        padding-left: -510px;
+        margin-top: -400px;
+    }
+    .card2{
+        margin-top: 20px;
+        background-color: white;
+        height: 50vh;
+        width: 270px;
+margin-left: -115px;
+    }
+     .card2 p{
+        font-size: 15px;  
+    }
+    .card2 h3{
+        font-size: 14px;
+    }
+    .card2 img{
+        width: 20px;
+    }
+
+.card3{
+        margin-top: 20px;
+        background-color: white;
+        height: 50vh;
+        width: 270px;
+       margin-left: -115px;
+    }
+     .card3 p{
+        font-size: 15px;  
+    }
+    .card3 h3{
+        font-size: 14px;
+    }
+    .card3 img{
+        width: 20px;
+    }
+
+   .card4{
+        margin-top: 20px;
+        background-color: white;
+        height: 50vh;
+        width: 270px;
+      margin-left: -115px;
+    }
+     .card4 p{
+        font-size: 15px;  
+    }
+    .card4 h3{
+        font-size: 14px;
+    }
+    .card4 img{
+        width: 20px;
+    }
+
+   .card5{
+        margin-top: 20px;
+        background-color: white;
+        height: 50vh;
+        width: 270px;
+        margin-left: -115px;
+    }
+     .card5 p{
+        font-size: 15px;  
+    }
+    .card5 h3{
+        font-size: 14px;
+    }
+    .card5 img{
+        width: 20px;
+    }
+
+.card6{
+        margin-top: 20px;
+        background-color: white;
+        height: 50vh;
+        width: 270px;
+        margin-left: -115px;
+    }
+     .card6 p{
+        font-size: 15px;  
+    }
+    .card6 h3{
+        font-size: 14px;
+    }
+    .card6 img{
+        width: 20px;
+    }
+    .section2{
+        width: 100%;
+        padding-left: 40px;
+    }
+
+    .section2>.beginners{
+        display: block;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+.section3 .meet{
+    margin-bottom: 180px;
+    margin-left: -100px;
+    font-size: 19px;
+}
+.section3{
+    margin-left: 160px;
+}
+    .cur{
+    height: 35vh;
+    width: 250px;
+    margin-top: 100px;
+    margin-left: -100px;
+}
+.jus {
+    margin-left: 0px;
+    padding: 10px;
+    
+}
+.jus p{
+    font-size: 10px;
+}
+.cur img{
+    display: none;
+}
+
+    .kris{
+    height: 30vh;
+    width: 250px;
+    margin-top: 100px;
+    margin-left: -100px;
+    margin-top: 120px;
+}
+.kri {
+    margin-left: 0px;
+    padding: 10px;
+}
+.kri p{
+    font-size: 10px;
+}
+        .kris img{
+            display: none;
+        }
+
+    .inss{
+    height: 35vh;
+    width: 250px;
+    margin-top: 100px;
+    margin-left: -100px;
+    margin-top: 120px;
+}
+.ins {
+    margin-left: 0px;
+    padding: 10px;
+}
+.ins p{
+    font-size: 10px;
+}
+    .inss img{
+    display: none;
+    }
+.section4 h3{
+    margin-left: -70px;
+    font-weight: 400;
+    font-size: 15px;
+}
+.section4 .ovr {
+    margin-top: 20px;
+    margin-left: -70px;
+    width: 290px;
+    font-size: 10px;
+    
+}
+.gle{
+    display: block;
+    margin-left: 30px;
+}
+.google{
+    height: 90px;
+     width: 260px;
+    margin-left: -100px;
+    border-radius: 5px;
+    text-align: center;  
+}
+.google img{
+    width: 30px;
+}
+.google p{
+    font-size: 12px;
+}
+
+.google1{
+    height: 90px;
+     width: 260px;
+    margin-left: -100px;
+    border-radius: 5px;
+    text-align: center;  
+}
+.google1 img{
+    width: 30px;
+}
+.google1 p{
+    font-size: 12px;
+}
+.google2{
+    height: 90px;
+     width: 260px;
+    margin-left: -100px;
+    border-radius: 5px;
+    text-align: center;  
+}
+.google2 img{
+    width: 30px;
+}
+.google2 p{
+    font-size: 12px;
+}
+.google3{
+    height: 90px;
+     width: 260px;
+    margin-left: -100px;
+    border-radius: 5px;
+    text-align: center;  
+}
+.google3 img{
+    width: 30px;
+}
+.google3 p{
+    font-size: 12px;
+}
+footer{
+padding-left: 0px;
+width: 100%;
+/* margin-left: 10px; */
+}
+footer p{
+    font-size: 10px;
+    padding-left: 10px;
+}
+.fthr{
+    width: 0px;
+    /* margin-left: -200px; */
+}
+.demo{
+    display: block;
+    margin-left: 20px;
+    height: 500px;
+}
+
+.goo p{
+    margin-top: -45px;
+    /* margin-top: -27px; */
+}
+.goo>img{
+    margin-left: -100px;
+    padding-top: 20px;
+    width: 30px;
+}
+.goo1 p{
+    margin-top: -45px;
+    margin-left: 60px;
+}
+.goo1>img{
+    margin-left: -40px;
+    padding-top: 20px;
+    width: 30px;
+}
+.goo2{
+    margin-top: -50px;
+}
+.goo2 p{
+    margin-top: -45px;
+    margin-left: 140px;
+}
+.goo2>img{
+    margin-left: 40px;
+    padding-top: 90px;
+    width: 30px;
+}
+.goo3{
+    margin-top: -50px;
+}
+.goo3 p{
+    margin-top: -45px;
+    margin-left: 180px;
+}
+.goo3>img{
+    margin-left: 80px;
+ 
+ width: 30px;
+    padding-top: 90px;
+}
+.goo4{
+    margin-top: -50px;
+}
+.goo4 p{
+    margin-top: -45px;
+    margin-left: 240px;
+}
+.goo4>img{
+    margin-left: 150px;
+    padding-top: 90px;
+    width: 30px;
+}
+
+
+.ft{
+    display: none;
+}
+}    
